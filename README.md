@@ -12,7 +12,7 @@ I simply did the following to build the executable.
 - Windows OS 64-bit (so I believe the binary was compiled into x86-64 compatible)
 - `gcc` version 10.2.0
 
-1. Install `msys2`
+1. Install `msys2` as instructed on its [official website](https://www.msys2.org/)
 2. Within `msys2`, install `gcc` (via command pacman -S)
 3. Add `msys2`'s bin directory to the environmental variable
 4. On Emacs, install `emacsql-sqlite` package and start Org-roam (v2)
