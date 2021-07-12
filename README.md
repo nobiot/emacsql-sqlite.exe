@@ -18,7 +18,7 @@ I simply did the following to build the executable.
 4. On Emacs, install `emacsql-sqlite` package and start Org-roam (v2)
    Emacs starts compiling the executable automatically
 
-# Checking hash
+# Check hash
 
 You can use PowerShell on your Windows machine to check the hash of the file. For example, if the exe file is in your Download
 
