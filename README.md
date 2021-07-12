@@ -7,7 +7,7 @@ This is purely for convenience for [Org-roam V2](https://github.com/org-roam/org
 
 I simply did the following to build the executable. 
 
-It's **recommended** that you try to build the executable on your own rather than use the executable hosted in this repository—It may not work on your machine unlike the one you build on your very machine.
+It's **recommended** that you try to build an executable on your own rather than use a copy of the executable hosted in this repository—It may not work on your machine unlike the one you build on your very machine.
 
 1. Install `msys2` as instructed on its [official website](https://www.msys2.org/)
 2. Within `msys2`, install `gcc` (via command pacman -S)
