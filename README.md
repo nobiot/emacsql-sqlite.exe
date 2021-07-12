@@ -6,17 +6,21 @@ This is purely for convenience for [Org-roam V2](https://github.com/org-roam/org
 - SHA256: 1D4129FDB22F643713640F3112B1BF209F3F9754EFDC84C3C6C8AB2D261ED8BB
 - Length: 1171169
 - Name: emacsql-sqlite.exe
-
-I simply did the following to build the executable.
 - My machine's CPU: Intel i7-8650U 64-bit
-- Windows OS 64-bit (so I believe the binary was compiled into x86-64 compatible)
+- Windows OS 64-bit (so I believe the binary was compiled as x86-64 compatible)
 - `gcc` version 10.2.0
+
+I simply did the following to build the executable. 
+
+It's **recommended** that you try to build the executable on your own rather than use the executable hosted in this repository—It may not work on your machine unlike the one you build on your very machine.
 
 1. Install `msys2` as instructed on its [official website](https://www.msys2.org/)
 2. Within `msys2`, install `gcc` (via command pacman -S)
 3. Add `msys2`'s bin directory to the environmental variable
 4. On Emacs, install `emacsql-sqlite` package and start Org-roam (v2)
    Emacs starts compiling the executable automatically
+
+Refer to the following only as your last resort when you really struggle to build the executable on your own.
 
 # Check hash
 
