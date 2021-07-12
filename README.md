@@ -35,7 +35,7 @@ Get-FileHash .\emacsql-sqlite.exe
 
 # Install
 
-Simply place the executable in the `emacsql-sqlite` folder. If you use Emacs' built-in `package.el`, it should be located somewhere under your `elpa` folder within Emacs directory like this:
+Simply place the executable in a subfolder named `sqlite` within the `emacsql-sqlite` folder; in it, you should see source `.c` file and etc.. If you use Emacs' built-in `package.el`, it should be located somewhere under your `elpa` folder within Emacs directory like this:
 
 ```
 C:\Users\<username>\emacs.d\elpa\emacsql-sqlite-20190727.1710\sqlite
