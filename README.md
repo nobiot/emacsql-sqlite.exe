@@ -3,12 +3,7 @@
 This repository contains a binary `emacsql-sqlite.exe` for Windows.
 This is purely for convenience for [Org-roam V2](https://github.com/org-roam/org-roam) users who have trouble compiling `emacsq-sqlite.exe` on Windows on their own.
 
-- SHA256: 1D4129FDB22F643713640F3112B1BF209F3F9754EFDC84C3C6C8AB2D261ED8BB
-- Length: 1171169
-- Name: emacsql-sqlite.exe
-- My machine's CPU: Intel i7-8650U 64-bit
-- Windows OS 64-bit (so I believe the binary was compiled as x86-64 compatible)
-- `gcc` version 10.2.0
+# How to Build an Executable on Your Machine
 
 I simply did the following to build the executable. 
 
@@ -23,6 +18,13 @@ It's **recommended** that you try to build the executable on your own rather tha
 Refer to the following only as your last resort when you really struggle to build the executable on your own.
 
 # Check hash
+
+- SHA256: 1D4129FDB22F643713640F3112B1BF209F3F9754EFDC84C3C6C8AB2D261ED8BB
+- Length: 1171169
+- Name: emacsql-sqlite.exe
+- My machine's CPU: Intel i7-8650U 64-bit
+- Windows OS 64-bit (so I believe the binary was compiled as x86-64 compatible)
+- `gcc` version 10.2.0
 
 You can use PowerShell on your Windows machine to check the hash of the file. For example, if the exe file is in your Download
 
