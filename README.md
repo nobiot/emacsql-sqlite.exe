@@ -23,7 +23,7 @@ Refer to the following only as your last resort when you really struggle to buil
 - Length: 1171169
 - Name: emacsql-sqlite.exe
 - My machine's CPU: Intel i7-8650U 64-bit
-- Windows OS 64-bit (so I believe the binary was compiled as x86-64 compatible)
+- Windows OS 64-bit (so I believe the binary is compiled as x86-64 compatible)
 - `gcc` version 10.2.0
 
 You can use PowerShell on your Windows machine to check the hash of the file. For example, if the exe file is in your Download
