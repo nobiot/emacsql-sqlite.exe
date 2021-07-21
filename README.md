@@ -11,8 +11,7 @@ It's **recommended** that you try to build an executable on your own rather than
 
 1. Install `msys2` as instructed on its [official website](https://www.msys2.org/)
 2. Within `msys2`, install `gcc` (via command `pacman -S`; the instruction on the webiste)
-3. Add `msys2`'s bin directory to the environmental variable
-4. On Emacs, install `emacsql-sqlite` package and start Org-roam (v2)
+3. On Emacs, install `emacsql-sqlite` package and start Org-roam (v2)
    Emacs starts compiling the executable automatically
 
 Refer to the following only as your last resort when you really struggle to build the executable on your own.
