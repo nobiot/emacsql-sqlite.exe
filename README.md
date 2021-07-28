@@ -18,8 +18,8 @@ Refer to the following only as your last resort when you really struggle to buil
 
 # Check hash
 
-- SHA256: 1D4129FDB22F643713640F3112B1BF209F3F9754EFDC84C3C6C8AB2D261ED8BB
-- Length: 1171169
+- SHA256: E3589CFD5836C07971AE2EFB8137891C07AD747C0012C75ED058EA693D190502
+- Length: 1613868
 - Name: emacsql-sqlite.exe
 - My machine's CPU: Intel i7-8650U 64-bit
 - Windows OS 64-bit (so I believe the binary is compiled as x86-64 compatible)
@@ -31,6 +31,11 @@ You can use PowerShell on your Windows machine to check the hash of the file. Fo
 cd  C:\Users\<username>\Downloads
 Get-FileHash .\emacsql-sqlite.exe
 ```
+
+## 2021-07-28 emacsql-sqlite.exe is now compiled using the MinGW-w64 Win32 Shell 
+- Source: https://www.davidegrayson.com/windev/msys2/
+- This executable should not require `msys2.dll` (refer to issue #2).
+- Modified make file -- see repo (I could have just called `gcc` directly)
 
 # Install
 
