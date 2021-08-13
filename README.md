@@ -17,7 +17,10 @@ It's **recommended** that you try to build an executable on your own rather than
 
 Refer to the following only as your last resort when you really struggle to build the executable on your own.
 
-# Check hash
+# Executable I complied
+As a last resort, you might have luck by using a copy of the `.exe` file I compiled.
+ 
+## Check hash
 
 - SHA256: E3589CFD5836C07971AE2EFB8137891C07AD747C0012C75ED058EA693D190502
 - Length: 1613868
