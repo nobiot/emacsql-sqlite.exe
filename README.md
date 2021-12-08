@@ -55,7 +55,7 @@ C:\Users\<username>\emacs.d\elpa\emacsql-sqlite-20190727.1710\sqlite
 
 # No guarantee, no support
 
-I do not guarantee that it works for every Window machine. It is provided as is, and I will assume no responsibility if it does not work for you. I will not respond to any request for support.
+I do not guarantee that it works for every Windows machine. It is provided as is, and I will assume no responsibility if it does not work for you. I will not respond to any request for support.
 
 # License of Used Software
 
