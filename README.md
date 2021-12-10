@@ -31,7 +31,6 @@ As a last resort, you might have luck by using a copy of the `.exe` file I compi
 - Compiled with `gcc` 10.3.0 in MinGW-w64 Win32 Shell
 
   This way, the executable should not require `msys2.dll` according to [this](https://www.davidegrayson.com/windev/msys2/).
-  I would appreciate it someone could verify the CPU compatiblity and non-requirement for `msys2.dll`.
 
 You can use PowerShell on your Windows machine to check the hash of the file. For example, if the exe file is in your Download
 
