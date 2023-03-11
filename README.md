@@ -1,3 +1,15 @@
+# Updte on 2023-03-11
+
+This newly compiled Windows binary comes with SQLite support compiled in. It has been reported that it works with Org-roam. emacs-29.0.60_1-installer.exe 2023-03-10 13:25 69M
+
+Ensure the following:
+
+- Function sqlite-available-p returns t (to confirm that SQLite built-in support in your Emacs is available)
+- Install emacs-sqlite-builtin (in addition to org-roam and its dependencies, which include emacs-sqlite)
+- User option org-roam-database-connector is set to sqlite-builtin (this should be the default if you meet the conditions above)
+
+With emacs-sqlite-builtin, you will not need to compile emacsql-sqlite.exe (effectively, the information in this page will be superseded).
+
 # emacsql-sqlite.exe
 
 This repository contains a binary `emacsql-sqlite.exe` for Windows.
